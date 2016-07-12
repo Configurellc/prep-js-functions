@@ -96,6 +96,15 @@ console.log(product);
  *  "My football team lost X times this week", where `X` is the
  *  value stored in `difference`.
  */
+function checkDifference(diff) {
+	return "My football team lost" +" "+ diff+ " "+ "time this week, where" + " "+ diff;
+}
+checkDifference();
+
+var hello = checkDifference(difference);
+
+console.log(hello);
+
 
 // var difference = a-b;
 // function checkDifference() {
@@ -113,6 +122,15 @@ console.log(product);
  *  "I CAN ADDZ X NUMBERS"  where `X` is the value
  *  stored in the variable `sum`.
  */
+
+ function checkSum(checkMe) {
+ 	return "I CAN ADD"+" "+checkMe+ " "+"where"+ " "+checkMe + " "+ "is the value stored in the variable"+ " "+sum;
+ }
+ checkSum;
+
+ var sumCheck = checkSum(sum);
+
+ console.log(sumCheck);
 //  var sum = a + b;
 // function checkSum(a, b) {
 // 	return "I CAN ADD"+ " "+ a+b +"NUMBERS where"+ sum + "is the value stored in the variable"+ sum;
