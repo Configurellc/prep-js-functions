@@ -191,8 +191,15 @@ console.log(addThenSubtract(sum, product, difference));
  *
  *  Store the return of this function to a variable named `howMany`
  */
+function addThenMultiply(numb1, numb2, numb3) {
+	return (numb1 + numb2) * numb3;
+}
 
+addThenMultiply();
 
+var howMany = addThenMultiply(sum, difference, product);
+
+console.log(howMany);
 /**
  *  #10
  *  Function - createFullName
