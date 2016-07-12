@@ -70,6 +70,16 @@ console.log(difference);
  *  This function returns the result of multiplying `b` by `a`.
  *  Store this value in a variable named `product`
  */
+function multiply(mult1, mult2) {
+	return mult1 * mult2;	
+}
+
+
+multiply();
+
+var product = multiply(b,a);
+
+console.log(product);
 // function product(b, a) {
 // 	return b*a;
 // };
