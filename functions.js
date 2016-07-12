@@ -173,7 +173,13 @@ console.log(combine);
  *      addThenSubtract(4, 5, 7); //-> returns 2 because 4 + 5 - 7 = 2
  */
 
+function addThenSubtract(prada1, prada2, prada3) {
+	return (prada1 + prada2) -prada3; 
+}
 
+addThenSubtract();
+
+console.log(addThenSubtract(sum, product, difference));
 /**
  *  #9
  *  Function - addThenMultiply
