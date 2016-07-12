@@ -223,7 +223,14 @@ console.log(howMany);
 // var lastName = "Lee"
 // var MyName = createFullName("Joshua", "Lee");
 // console.log(MyName);
+function createFullName(firstName, lastName) {
+	return "Hello everyone my name is,"+ " "+ firstName + " "+lastName + " "+ "and i love pancakes!!!";
+}
+createFullName();
 
+var myFullName = createFullName("Joshua", "Lee");
+
+console.log(myFullName);
 /**
  *  #11
  *  Function - verifyDrinkingAge
@@ -238,6 +245,16 @@ console.log(howMany);
  *  **Call this function and pass in a number value.
  *  Store the return value to a variable named** `canDrinkBeer`
  */
+
+ function verifyDrinkingAge(age) {
+ 	return age>=21;
+ }
+
+ verifyDrinkingAge();
+
+ var canDrinkBeer = verifyDrinkingAge(18);
+
+ console.log(canDrinkBeer);
 // function verifyDrinkingAge(age) {
 // 	var result;
 
