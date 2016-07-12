@@ -148,7 +148,14 @@ console.log(hello);
 // function checkProduct(product, difference) {
 // 	return product - difference;
 // }
+function checkProduct(check1, check2) {
+	return check1 * check2;
+}
+checkProduct();
 
+var combine = checkProduct(product,difference);
+
+console.log(combine);
 // console.log(checkProduct(20, 4));
 
 
